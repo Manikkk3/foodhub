@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/foodhub/static/css/main.211540a5.css",
+    "main.js": "/foodhub/static/js/main.cf3a8799.js",
+    "static/media/healthy_food.png": "/foodhub/static/media/healthy_food.629fa1c0b9dc4833750e.png",
+    "static/media/menuFood1.jpg": "/foodhub/static/media/menuFood1.982a577e483bf998b9a8.jpg",
+    "static/media/burger.png": "/foodhub/static/media/burger.c18beb2d9d86bfe4cb02.png",
+    "static/media/contact_image.jpg": "/foodhub/static/media/contact_image.bd036470f4a20eca1009.jpg",
+    "static/media/menuFood2.jpg": "/foodhub/static/media/menuFood2.78fa27533e72f23c29b1.jpg",
+    "static/media/menuFood3.jpg": "/foodhub/static/media/menuFood3.379d3d9aebdc1968bf1b.jpg",
+    "static/media/menuFood4.jpg": "/foodhub/static/media/menuFood4.522a7f630d44eee4955d.jpg",
+    "index.html": "/foodhub/index.html",
+    "main.211540a5.css.map": "/foodhub/static/css/main.211540a5.css.map",
+    "main.cf3a8799.js.map": "/foodhub/static/js/main.cf3a8799.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.211540a5.css",
+    "static/js/main.cf3a8799.js"
+  ]
+}
