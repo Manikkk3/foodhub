@@ -16,7 +16,7 @@ export default function Navbar() {
       <div>
         <Link to="/" className='icon text-4xl font-semibold '><span className='text-yellow-400'>Food</span><span className='text-gray-700'>hub</span></Link>
       </div>
-      <div className='flex hidden xl:block  flex-row space-x-16  space-x-8 nav-items text-xl font-medium items-center'>
+      <div className='flex hidden xl:block  flex-row space-x-16  nav-items text-xl font-medium items-center'>
         <Link to="/About" className='hover:border-b-2 hover:border-yellow-500 hover:rounded-b-sm'>About Us</Link>
         <Link to="/Menu" className='hover:border-b-2 hover:border-yellow-500 hover:rounded-b-sm'>Menu</Link>
         <Link to="" className='hover:border-b-2 hover:border-yellow-500 hover:rounded-b-sm'>Reviews</Link>
@@ -30,12 +30,12 @@ export default function Navbar() {
           <span className={ openLinks ? "hidden" : "hamburger-top"}></span>
           <span className={ openLinks ? "hidden " : "hamburger-middle"}></span>
           <span className={ openLinks ? "hidden " : "hamburger-bottom"}></span>
-          <span className={ openLinks ? "p-2 mb-2 bg-red-500 text-white rounded-lg ": "hidden"}>Close</span>
+          <span className={ openLinks ? "p-1  bg-red-500 text-white rounded-lg ": "hidden"}>Close</span>
       </button>
 
       {/* Mobile menu */}
       
-      <div id="menu" className={ openLinks ? "absolute flex flex-col items-center lg:hidden self-end py-8 mt-96 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md" : "hidden"}>
+      <div id="menu" className={ openLinks ? "absolute flex flex-col items-center lg:hidden self-end  space-y-6 font-bold bg-white sm:w-auto sm:self-center py-8 left-6 right-6 top-20 drop-shadow-md" : "hidden"}>
         <Link to="/About" className='hover:border-b-2 hover:border-gray-500'>About Us</Link>
         <Link to="/Menu" className='hover:border-b-2 hover:border-gray-500'>Menu</Link>
         <Link to="" className='hover:border-b-2 hover:border-gray-500'>Reviews Us</Link>
